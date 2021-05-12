@@ -1,0 +1,51 @@
+.slider {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider .slider-line {
+    padding: 30px 0;
+    max-height: 550px;
+    display: flex;
+    position: relative;
+    left: -100%;
+}
+.slider .slider-line__item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slider .slider-button {
+    text-align: center;
+}
+.slider .slider-button button {
+    background-color: #97455F;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 30px;
+    width: 80px;
+}
+
+.slider .slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.slider .slider-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.slider .slider-dot:last-child {
+    margin-right: 0;
+}
+
+.slider .slider-dot.red {
+    background: red;
+}
